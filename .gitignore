@@ -1,0 +1,26 @@
+# Dependencies
+app/node_modules/
+
+# Build outputs
+app/dist/
+app/src-tauri/target/
+
+# Tauri generated icon source (on regenere avec le script)
+app/src-tauri/icons/icon_source_1024.png
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
